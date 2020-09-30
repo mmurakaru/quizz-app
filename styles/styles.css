@@ -1,7 +1,5 @@
-* {
-    box-sizing: border-box;
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import './colors.css';
 @import './basic.css';
 @import './utility.css';
@@ -10,3 +8,4 @@
 @import './components/form.css';
 @import './components/navigation.css';
 @import './components/tag-list.css';
+

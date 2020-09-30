@@ -4,67 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="html" href="../pages/create.html">
-    <link rel="html" href="../pages/profile.html">
-    <link rel="html" href="../pages/bookmarks.html">
+    <link rel="stylesheet" href="styles/styles.css">
 
     <title>Quiz-App</title>
 </head>
+
 <body>
-
-    <!--Header-Card-->
     
-    <h1>Quiz-App</h1>
+    <header class="item header"><span>Quiz-App</span></header>
+    
+    <main class="item card">
 
-    <!--Question-Cards-->
-
-    <div class="question-card">
-        <span>bookmark-logo</span>
-        <h2>Question</h2>
-        <p>Lorem ipsum</p>
-        <button type="button">Show answer</button> 
-        <span>#advanced</span>
-        <span>#html</span>
-        <span>#semantics</span>
-        <span>#rules</span>
-    </div>
-
-
-    <div class="question-card">
-        <span>bookmark-logo</span>
-        <h2>Question</h2>
-        <p>Lorem ipsum</p>
-        <button type="button">Show answer</button> 
-        <span>#advanced</span>
-        <span>#html</span>
-        <span>#semantics</span>
-        <span>#rules</span>
-    </div>
+        <section class="card">
+            <img class="card__bookmark" src="./assets/icons/bookmark.svg" alt="">
+            <h2>Question</h2>
+            <p>Lorem ipsum</p>
+            <button type="button">Show answer</button> 
+            <div class="tags">
+            <span>#advanced</span>
+            <span>#html</span>
+            <span>#semantics</span>
+            <span>#rules</span>
+            </div>
+        </section>
 
 
-    <div class="question-card">
-        <span>bookmark-logo</span>
-        <h2>Question</h2>
-        <p>Lorem ipsum</p>
-        <button type="button">Show answer</button> 
-        <span>#advanced</span>
-        <span>#html</span>
-        <span>#semantics</span>
-        <span>#rules</span>
-    </div>
+    </main>
 
-    <!--Navigation-->
-
-    <nav>
-        <ul>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-        </ul>
+    <nav class="item nav">
+        <a class="" href="index.html"><img class="card__bookmark" src="./assets/icons/home.svg" alt=""></a>
+        <a class="" href="create.html"><img class="card__bookmark" src="./assets/icons/bookmark_white.svg" alt=""></a>
+        <a class="" href="bookmarks.html"><img class="card__bookmark" src="./assets/icons/pen_white.svg" alt=""></a>
+        <a class="" href="profile.html"><img class="card__bookmark" src="./assets/icons/user_white.svg" alt=""></a>
     </nav>
+
+
 
 </body>
 </html>

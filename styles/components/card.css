@@ -1,0 +1,10 @@
+
+.card {
+  display: grid;
+}
+
+
+.card__bookmark {
+  height: 1em;
+  width: 1em;
+}
