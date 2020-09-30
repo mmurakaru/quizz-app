@@ -1,9 +1,11 @@
 .nav {
-
     background-color: #8393FF;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 4em;
-    padding-right: 4em;
+}
+
+.nav__icon {
+    height: 1em;
+    width: 1em;
 }

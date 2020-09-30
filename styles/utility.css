@@ -1,8 +1,26 @@
-.ml-2 {
-
+.p-8 {
+    padding: 8px;
 }
 
-.mr-2 {
+.pl-4 {
+    padding-left: 4em;
+}
+
+.pr-4 {
+    padding-right: 4em;
+}
+
+
+.m-auto {
+    margin: auto;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-o {
+    margin-bottom: 0;
 }
 
 
