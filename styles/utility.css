@@ -16,17 +16,6 @@
 }
 
 
-.ml-30 {
-    margin-left: 30px;
-}
-
-.ml--15 {
-    margin-left: -15px;
-}
-
-.mr-30 {
-    margin-right: 30px;
-}
 
 .mb-15 {
     margin-bottom: 15px;
@@ -38,6 +27,10 @@
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mt-25 {
@@ -63,8 +56,8 @@
 }
 
 
-.w-25 {
-    max-width: 22em;
+.w-19 {
+    max-width: 19em;
     margin: auto;
 }
 
