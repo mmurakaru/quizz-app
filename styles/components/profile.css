@@ -3,11 +3,18 @@
 
 }
 
+.profile__about {
+    text-align: justify;
+}
+
 .profile__logout {
     background-color: #F48874;
     color: white;
+    font-size: 90%;
+    font-weight: 200;
     border: none;
-    width: 10em;
+    width: 7em;
+    height: 2em;
     border-radius: 5px;
 }
 
