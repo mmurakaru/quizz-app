@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 
-    <link rel="html" href="../pages/bookmarks.html">
-    <link rel="html" href="../pages/create.html">
-    <link rel="html" href="../pages/index.html">
-
-    <title>Profile</title>
+    <title>Quiz-App</title>
 </head>
+
 <body>
 
-    <!--Header-Card-->
+    <header class="item header"><span>Quiz-App</span></header>
 
-    <h1>Profile</h1>
+    <section class="profile">
 
-    <!--Upper Section-->
+    <div class="h-c mt-25">
+    <img class="profile__picture" src="../assets/mmurakarulogo.svg" alt="">
+    </div>
 
-    <img class="profilepicture" src="../assets/profilepicture.png" alt="">
     <span>Name</span>
 
     <!--About Yourself-->
@@ -29,27 +27,35 @@
 
 
     <!--Tags about skills-->
+    <div class="h-c">
+    <h2>Skills</h2>
+    </div>
 
-    <h2>lorem ipsum</h2>
 
-    <span>tag1</span>
-    <span>tag2</span>
-    <span>tag3</span>
-    <span>tag4</span>
+    <div class="profile__skills">
+        <span class="item skill1">HTML</span>
+        <span class="item skill2">CSS3</span>
+        <span class="item skill3">Vanilla JS</span>
+        <span class="item skill4">React.js</span>
+      </div>
+
+
+
+   
 
     <!--Logout-->
 
-    <button type="button">Logout</button> 
+    <button class="profile__logout" type="button">Logout</button> 
 
-    <!--Navigation-->
+    </section>
 
-    <nav>
-        <ul>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-        </ul>
+    <!--Menu-->
+
+    <nav class="item nav pl-4 pr-4">
+        <a class="" href="index.html"><img class="nav__icon" src="./assets/icons/home_white.svg" alt=""></a>
+        <a class="" href="bookmarks.html"><img class="nav__icon" src="./assets/icons/bookmark_white.svg" alt=""></a>
+        <a class="" href="create.html"><img class="nav__icon" src="./assets/icons/pen_white.svg" alt=""></a>
+        <a class="" href="profile.html"><img class="nav__icon" src="./assets/icons/user.svg" alt=""></a>
     </nav>
 
 </body>

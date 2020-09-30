@@ -1,0 +1,92 @@
+.profile {
+   
+
+}
+
+.profile__logout {
+    background-color: #F48874;
+    color: white;
+    border: none;
+    width: 10em;
+    border-radius: 5px;
+}
+
+.profile__logout:hover {
+    opacity: 0.5;
+  }
+
+
+.profile__picture {
+border-radius: 50%;
+width: 30%;
+background-color: white;
+}
+
+
+.profile__skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-flow: column;
+    padding: 0;
+    justify-items: center;
+  }
+
+
+  .skill1 {
+    color: #4a4a4a;
+    border-color: #4a4a4a;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    grid-column: 1/2;
+    padding-right: 19px;
+  }
+  
+  .skill1:hover {
+    border-color: #d3d3d3;
+  }
+
+  .skill2 {
+    color: #4a4a4a;
+    border-color: #4a4a4a;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    grid-column: 2/3;
+    padding-right: 20px;
+  }
+  
+  .skill2:hover {
+    border-color: #d3d3d3;
+  }
+
+
+  .skill3 {
+    color: #4a4a4a;
+    border-color: #4a4a4a;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    grid-column: 3/4;
+  }
+  
+  .skill3:hover {
+    border-color: #d3d3d3;
+  }
+
+  .skill4 {
+    color: #4a4a4a;
+    border-color: #4a4a4a;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    grid-column: 4/5;
+  }
+  
+  .skill4:hover {
+    border-color: #d3d3d3;
+  }
+
+
+

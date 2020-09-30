@@ -4,52 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 
-    <link rel="html" href="../pages/bookmarks.html">
-    <link rel="html" href="../pages/profile.html">
-    <link rel="html" href="../pages/index.html">
-
-    <title>Create</title>
+    <title>Quiz-App</title>
 </head>
+
+
 <body>
 
-    <!--Header-Card-->
+    <!--Page-->
+    
+    <header class="item header"><span>Create</span></header>
 
-    <h1>Create</h1>
+    <!--Form-->
+    
+    <main class="item card__scrolling">
 
-    <!--Question-Cards-->
-
-    <div class="question-card">
-        <span>bookmark-logo</span>
-        <h2>Question</h2>
-        <p>Lorem ipsum</p>
-        <button type="button">Show answer</button> 
-        <span>#advanced</span>
-        <span>#html</span>
-        <span>#semantics</span>
-        <span>#rules</span>
-    </div>
-
-    <form action="">
-        <label for="question">Add question:</label><br>
-        <input type="text" id="question" name="question" value="Question"><br>
-        <label for="answer">Add answer:</label><br>
-        <input type="text" id="answer" name="answer" value="Answer"><br><br>
-    </form>
-
-    <button type="button">Submit</button> 
+        <section class="card">
+            <img class="card__bookmark" src="./assets/icons/bookmark.svg" alt="">
+            <h2 class="card__header mb-o">Question</h2>
+            <p class="card__question mt-0">What does html stand for?</p>
+            <button class="card__button p-8 mb-15" type="button">Show answer</button> 
+            <div class="tags mb-15">
+                <span>#advanced</span>
+                <span>#html</span>
+                <span>#semantics</span>
+                <span>#rules</span>
+            </div>
+        </section>
 
 
-    <!--Navigation-->
+    
 
-    <nav>
-        <ul>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-            <li>icon</li>
-        </ul>
+
+        <section class="card">
+            <img class="card__bookmark" src="./assets/icons/bookmark.svg" alt="">
+            <h2 class="card__header mb-o">Question</h2>
+            <p class="card__question mt-0">What does html stand for?</p>
+            <button class="card__button p-8 mb-15" type="button">Show answer</button> 
+            <div class="tags mb-15">
+                <span>#advanced</span>
+                <span>#html</span>
+                <span>#semantics</span>
+                <span>#rules</span>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!--Menu-->
+
+    <nav class="item nav pl-4 pr-4">
+        <a class="" href="index.html"><img class="nav__icon" src="./assets/icons/home_white.svg" alt=""></a>
+        <a class="" href="bookmarks.html"><img class="nav__icon" src="./assets/icons/bookmark_white.svg" alt=""></a>
+        <a class="" href="create.html"><img class="nav__icon" src="./assets/icons/pen.svg" alt=""></a>
+        <a class="" href="profile.html"><img class="nav__icon" src="./assets/icons/user_white.svg" alt=""></a>
     </nav>
 
 </body>
