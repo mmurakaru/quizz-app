@@ -12,3 +12,10 @@
 .form__submit:hover {
     opacity: 50%;
 }
+
+input {
+    width: 20em;
+    height: 5em;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px; 
+}
