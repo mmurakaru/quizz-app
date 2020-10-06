@@ -76,3 +76,7 @@
 .ai-c {
     align-items: center;
 }
+
+.hide {
+    visibility: hidden;
+}
