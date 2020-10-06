@@ -1,33 +1,32 @@
-
 .profile__about {
-    text-align: justify;
+  text-align: justify;
+  width: 80%;
 }
 
 .profile__logout {
-    background-color: #F48874;
-    color: white;
-    font-size: 90%;
-    font-weight: 200;
-    border: none;
-    width: 7em;
-    height: 2em;
-    border-radius: 5px;
+  background-color: #f48874;
+  color: white;
+  font-size: 90%;
+  font-weight: 200;
+  border: none;
+  width: 7em;
+  height: 2em;
+  border-radius: 5px;
 }
 
 .profile__logout:hover {
-    opacity: 0.5;
-  }
-
-
-.profile__picture {
-border-radius: 50%;
-width: 30%;
-background-color: whitesmoke;
+  opacity: 0.5;
 }
 
+.profile__picture {
+  border-radius: 50%;
+  width: 30%;
+  background-color: whitesmoke;
+}
 
 .profile__skills {
-    display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(100px,1fr));
-    grid-gap: 10px;
-  }
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+}
