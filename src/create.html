@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
 
     <title>Quiz-App</title>
-</head>
+  </head>
 
-
-<body>
-
+  <body>
     <!--Page-->
-    
+
     <header class="item header"><span>Create</span></header>
 
     <!--Form-->
-    
+
     <main class="item card__scrolling">
+      <section class="card">
+        <img class="card__bookmark" src="./assets/icons/pen.svg" alt="" />
+        <h2 class="card__header mb-25">Create a Q&A</h2>
+        <p class="card__question mt-0">Add question</p>
+        <form>
+          <input type="text" id="question" name="question" />
+        </form>
+        <p class="card__question mt-0">Add answer</p>
+        <form>
+          <input type="text" id="answer" name="answer" />
+        </form>
 
-        <section class="card">
-            <img class="card__bookmark" src="./assets/icons/pen.svg" alt="">
-            <h2 class="card__header mb-25">Create a Q&A</h2>
-            <p class="card__question mt-0">Add question</p>
-            <form>
-                <input type="text" id="question" name="question">
-            </form>
-            <p class="card__question mt-0">Add answer</p>
-            <form>
-                <input type="text" id="answer" name="answer">
-            </form>
+        <p class="card__question mt-0">Add tags</p>
 
-            <p class="card__question mt-0">Add tags</p>
+        <form>
+          <input
+            placeholder="   e.g. basic,html... (max. 4 tags)"
+            type="text"
+            id="tags"
+            name="tags"
+          />
+        </form>
 
-            <form>
-                <input placeholder="   e.g. basic,html... (max. 4 tags)" type="text" id="tags" name="tags">
-            </form>
-
-            <div class="h-c mt-50 mb-50">
-                <button class="form__submit" type="button">Submit</button> 
-            </div>
-        </section>
-
-
+        <div class="h-c mt-50 mb-50">
+          <button class="form__submit" type="button">Submit</button>
+        </div>
+      </section>
     </main>
-
-   
-
 
     <!--Menu-->
 
     <nav class="item nav pl-4 pr-4">
-        <a class="" href="index.html"><img class="nav__icon" src="./assets/icons/home_white.svg" alt=""></a>
-        <a class="" href="bookmarks.html"><img class="nav__icon" src="./assets/icons/bookmark_white.svg" alt=""></a>
-        <a class="" href="create.html"><img class="nav__icon" src="./assets/icons/pen.svg" alt=""></a>
-        <a class="" href="profile.html"><img class="nav__icon" src="./assets/icons/user_white.svg" alt=""></a>
+      <a class="" href="/src/index.html"
+        ><img class="nav__icon" src="./assets/icons/home_white.svg" alt=""
+      /></a>
+      <a class="" href="/src/bookmarks.html"
+        ><img class="nav__icon" src="./assets/icons/bookmark_white.svg" alt=""
+      /></a>
+      <a class="" href="/src/create.html"
+        ><img class="nav__icon" src="./assets/icons/pen.svg" alt=""
+      /></a>
+      <a class="" href="/src/profile.html"
+        ><img class="nav__icon" src="./assets/icons/user_white.svg" alt=""
+      /></a>
     </nav>
-
-</body>
+  </body>
 </html>
