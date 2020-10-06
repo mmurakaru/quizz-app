@@ -4,17 +4,22 @@
   "description": "This project is about building a Quiz-App.",
   "main": "index.js",
   "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmurakaru/quizz-app.git"
+    "url": "git+https://github.com/mmurakaru/quiz-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mmurakaru/quizz-app/issues"
+    "url": "https://github.com/mmurakaru/quiz-app/issues"
   },
-  "homepage": "https://github.com/mmurakaru/quizz-app#readme"
+  "homepage": "https://github.com/mmurakaru/quiz-app#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
